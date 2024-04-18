@@ -128,3 +128,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+__pycache__
+conf.dev.json
+conf.prod.json
+/server/jobs.json
+/server/downloads/job-*.webp
+/server/downloads/job-*.jpg
+/server/downloads/job-*.png

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta http-equiv="Cache-Control" content="no-store, max-age=0, must-revalidate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="AI Image Generator and Search, unleash your Creativity, official site:https://www.ai-img-gen.com/" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="js/ACsv.min.js"></script>
+  <title>AI Image Generator - unleash your Creativity</title>
+  <style>
+    #LOADING { position: fixed; top: 0; left: 0; z-index: 3000; font-size: 36px; width: 100%; height: 100%; background-color:white; display: flex; justify-content: center; align-items: center; }
+    #LOADING>div { animation-name: LOADING_FADE; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+    @keyframes LOADING_FADE { 0% { opacity: 1; } 50% { opacity: 0.2; } 100% { opacity: 1; } }
+    #my-app { width: 100%; height: 100%; }
+  </style>
+  <script>
+    window.addEventListener('VueMounted', () => { let ins = document.getElementById('LOADING'); if (ins) { ins.remove(); } });
+  </script>
+</head>
+
+<body>
+  <div id="LOADING"><div>Loding</div></div>
+  <div id="my-app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+<script>
+  var IsSupportES2015 = (!!window.Proxy) && (!!window.Promise);
+  if (!IsSupportES2015) alert('Your browser version is too old, please update it before visiting again.\nIt is recommended to use modern browsers such as Chrome and Edge.');
+</script>
+
+</html>

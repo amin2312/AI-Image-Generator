@@ -1,0 +1,35 @@
+{
+	"debug": false,
+	"test": false,
+	"port": 3001,
+	"errLog": "stderr.log",
+	"outLog": "stdout.log",
+	"api_proxy": "",
+	"maxRequestSeconds": 120,
+	"jobs": {
+		"maxItems": 100,
+		"maxFreeConcurrencies": 100,
+		"save_path": "jobs.json"
+	},
+	// It is recommended to enable this parameter because the client's localStroage has an upper limit.
+	"dump": {
+		"on": true,
+		"save_type": "webp",
+		"save_quality": 80,
+		"save_path": "downloads/",
+		"public_url": "{host}/{save_path}"
+	},
+	"supplier": {
+		"openai": {
+			"api_key": ""
+		},
+		"azure": {
+			"api_key": "",
+			"api_version": "",
+			"endpoint": ""
+		},
+		"stability": {
+			"api_key": ""
+		}
+	}
+}

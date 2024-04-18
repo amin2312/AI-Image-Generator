@@ -1,0 +1,11 @@
+name:string,iso_639_3166:strings,langField:string
+english,en,en
+español,es,es
+portugués,pt,pt
+français,fr,fr
+Türkçe,tr,tr
+русский,ru,ru
+Indonesia,id,ind
+简体中文,zh,zh
+繁體中文,"zh-Hant,zh-TW,zh-HK,zh-MO",zh-Hant
+日本語,ja,ja

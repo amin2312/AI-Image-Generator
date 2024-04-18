@@ -1,0 +1,137 @@
+:root {
+  --my-min-win-h: 540px;
+  --my-min-win-w: 1080px;
+
+  --my-bar-height-xs: 18px;
+  --my-bar-height-s: 24px;
+  --my-bar-height: 36px;
+  --my-bar-height-ml: 42px;
+  --my-bar-height-l: 48px;
+  --my-bar-height-xl: 60px;
+  --my-bar-height-2m: 72px;
+  --my-bar-height-2l: 96px;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  min-width: var(--my-min-win-w);
+  min-height: var(--my-min-win-h);
+}
+
+body {
+  color: #000;
+  background: #FFF;
+  font-size: 14px;
+  touch-action: manipulation;
+  background-color: var(--el-color-primary-light-9);
+}
+
+button,
+pre,
+code,
+input,
+textarea {
+  font-size: medium;
+}
+
+.my_button_white {
+  padding: 0px 8px;
+  color: #FFF;
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.my_button_white:hover {
+  cursor: pointer;
+  border: 1px #FFF solid;
+}
+
+.my_button_white:disabled {
+  cursor: not-allowed !important;
+  background-color: transparent !important;
+  opacity: 0.5;
+}
+
+.my_button_black {
+  padding: 0px 10px;
+  color: #000;
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.my_button_black:hover {
+  cursor: pointer;
+  border: 1px #000 solid;
+}
+
+.my_button_black:disabled {
+  cursor: not-allowed !important;
+  background-color: transparent !important;
+  opacity: 0.5;
+}
+
+.op_button {
+  box-sizing: border-box;
+  border: 1px solid var(--el-color-primary);
+  line-height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: var(--el-color-primary);
+  background-color: #FFF;
+}
+
+.op_button:hover {
+  border: 1px solid var(--el-color-danger);
+  cursor: pointer;
+}
+
+.op_button:disabled {
+  color: #000 !important;
+  cursor: not-allowed !important;
+  background-color: transparent !important;
+  opacity: 0.5;
+}
+
+.op_button+.op_button {
+  margin-left: 2px;
+}
+
+.op_button_on {
+  color: white;
+  background-color: var(--el-color-danger);
+}
+
+.op_button_hl {
+  border-color: blue;
+  color: white !important;
+  background-color: var(--el-color-primary) !important;
+}
+
+.op_button_hl2 {
+  border-color: red;
+  color: white !important;
+  background-color: var(--el-color-danger) !important;
+}
+
+@font-face {
+  font-family: 'LogoFont';
+  src: url('/font/logo2.otf');
+}
+
+@font-face {
+  font-family: 'digitW';
+  src: url('/font/digitW.ttf');
+}
+
+@include media-breakpoint-down(sm) {
+  :root {
+    --my-min-win-h: 360px;
+    --my-min-win-w: 360px;
+  }
+}

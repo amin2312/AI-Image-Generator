@@ -1,0 +1,79 @@
+.el-button+.el-button {
+  margin-left: 4px;
+}
+
+.el-dropdown {
+  padding: 0px 4px;
+}
+
+.el-dialog {
+  --el-dialog-content-font-size: medium !important;
+}
+
+.el-dialog__header {
+  background-color: #eee;
+  margin-right: 0px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.el-dialog__headerbtn {
+  top: 2px !important;
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.el-dialog__footer {
+  padding-top: 0px !important;
+}
+
+.el-message {
+  pointer-events: none;
+}
+
+.el-message-box__headerbtn {
+  top: 15px !important;
+}
+
+.el-message__content {
+  font-size: 18px !important;
+}
+
+.el-message-box {
+  width: auto !important;
+  max-width: 80vw !important;
+}
+
+.el-message-box__header {
+  background-color: #ddd;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.el-message-box__message {
+  font-size: 18px;
+}
+
+.i-icon>svg {
+  vertical-align: baseline !important;
+}
+
+@include media-breakpoint-down(sm) {
+  .el-message {
+    width: max-content !important;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px !important;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .el-message__content {
+    font-size: 14px !important;
+  }
+}

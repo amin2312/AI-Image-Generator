@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "element-plus": "^2.2.28",
+    "mobile-device-detect": "^0.4.3",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "unplugin-auto-import": "^0.15.3",
+    "unplugin-vue-components": "^0.22.9",
+    "vite": "^4.0.0"
+  }
+}
