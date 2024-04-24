@@ -1,7 +1,7 @@
 ﻿id:int,name:string,en:string,zh:string,zh-Hant:string,es:string,pt:string,fr:string,tr:string,ru:string,ind:string,ja:string
 101,logo,AI Image Generator,AI图片生成,AI繪圖生成,Generador de Imágenes de IA,Gerador de Imagem de IA,Générateur d'Images IA,Yapay Zeka Görüntü Oluşturucusu,ИИ-генератор изображений,Generator Gambar AI,AI画像生成
 102,prompt,prompt,提示词,提示詞,,,,,,,
-103,,Painting..,绘画中..,繪畫中..,,,,,,,
+103,,Drawing..,绘图中..,繪圖中..,,,,,,,
 104,,Please wait for current request to complete,请等待当前请求完成,請等待目前請求完成,,,,,,,
 105,version,version,版本,版本,,,,,,,
 106,size,size,尺寸,尺寸,,,,,,,
@@ -58,8 +58,8 @@ Please try again later.","超过最大任务数，
 155,,Unable to generate content,无法生成内容,無法生成內容,,,,,,,
 156,job,Task,任务,任務,,,,,,,
 157,,"Your request has been added to the task,
-Please wait for the painting to be completed.",您的请求已添加到任务中，请等待绘画完成。,您的請求已添加到任務中，請等待繪畫完成。,,,,,,,
-158,,"Free painting tasks are full, please try again later.",免费绘画任务已满，请稍后再试。,免費繪畫任務已滿，請稍後再試。,,,,,,,
-159,,"When it's empty, it's a free painting task",当它为空时，则是免费的绘画任务,當它為空時，则是免費的繪畫任務,,,,,,,
+Please wait for the drawing to be completed.",您的请求已添加到任务中，请等待绘图完成。,您的請求已添加到任務中，請等待繪圖完成。,,,,,,,
+158,,"Free drawing tasks are full, please try again later.",免费的绘图任务已满，请稍后再试。,免費的繪圖任務已滿，請稍後再試。,"Las tareas de dibujo gratuitas están completas, inténtalo de nuevo más tarde.",As tarefas de desenho gratuitas estão completas. Tente novamente mais tarde.,"Les tâches de dessin gratuites sont terminées, veuillez réessayer plus tard.","Ücretsiz çizim görevleri doldu, lütfen daha sonra tekrar deneyin.","Бесплатные задания по рисованию заполнены, повторите попытку позже.","Tugas menggambar gratis sudah penuh, silakan coba lagi nanti.",無料の描画タスクは満員です、後で再度お試しください。
+159,,"When it is empty, the submission is a free drawing task.",当它为空时，提交的是免费的绘图任务,當它為空時，提交的是免費的繪圖任務,"Cuando está vacío, el envío es una tarea de dibujo gratuita.","Quando estiver vazio, o envio é uma tarefa de desenho livre.","Lorsqu'il est vide, la soumission est une tâche de dessin gratuite.","Boş olduğunda, gönderim ücretsiz bir çizim görevidir.","Если он пуст, это означает, что отправка представляет собой бесплатное задание по рисованию.","Jika kosong, penyerahannya adalah tugas menggambar gratis.",空の場合、提出は無料の描画タスクです。
 160,,Cancel,取消,取消,,,,,,,
-161,,Search It,搜索它,搜索它,,,,,,,
+161,,Find it,搜索它,搜索它,Encuéntralo,Encontre,Trouve le,Bul onu,Найди это,Temukan,それを見つける
