@@ -4,7 +4,10 @@ AI Image Generator
 **[English](./README.md)** | **[中文](./README_zh.md)**
 
 **AI Image Generator** is a easy-to-operate image generator that provides users with a more convenient and efficient image generation solution.  
-It is based on **Dall·E** and **Stable Diffusion** API, and implements complete client(vue) and server(tornado) solution.
+
+* It is based on **Dall·E** and **Stable Diffusion** API;
+* It supports multi languages;
+* It implements complete client(vue) and server(tornado) solution;
 
 Screenshots & Demo
 ----------------
@@ -54,6 +57,10 @@ Directory Structure
 ```text
 root
 ├─ client   // Vue client project
+   ├─ src
+      ├─ assets
+         ├─ language_strings.csv  // Add new translation using the CSV editor
+         ├─ language_support.csv  // Add new language using the CSV editor
 ├─ intro    // Related files introduced
 ├─ server   // Python server project
 └─ wwwroot  // Server web root directory / Vue build output directory

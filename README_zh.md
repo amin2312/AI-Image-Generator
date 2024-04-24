@@ -3,8 +3,11 @@ AI图片生成器(AI Image Generator)
 
 **[English](./README.md)** | **[中文](./README_zh.md)**
 
-**AI图片生成器**是一款易于操作的图片生成器，为用户提供更加便捷、高效的图片生成解决方案。  
-它是基于 **Dall·E** 和 **Stable Diffusion** API，并实现了完整的客户端(vue)和服务器(tornado)的解决方案。
+**AI图片生成器** 是一款易于操作的图片生成器，为用户提供更加便捷、高效的图片生成解决方案。  
+
+* 它是基于 **Dall·E** 和 **Stable Diffusion** API;
+* 它支持多种语言;
+* 它实现了完整的客户端(vue)和服务器(tornado)的解决方案;
 
 截图与演示
 ----------------
@@ -54,6 +57,10 @@ python server/app.py
 ```text
 root
 ├─ client   // Vue 客户端项目
+   ├─ src
+      ├─ assets
+         ├─ language_strings.csv  // 使用 CSV 编辑器添加新翻译
+         ├─ language_support.csv  // 使用 CSV 编辑器添加新语言
 ├─ intro    // 与介绍相关的文件
 ├─ server   // Python 服务器项目
 └─ wwwroot  // 服务器 Web 根目录 / Vue 构建输出目录
