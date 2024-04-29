@@ -3,7 +3,7 @@ AI图片生成器(AI Image Generator)
 
 **[English](./README.md)** | **[中文](./README_zh.md)**
 
-**AI图片生成器** 是一款易于操作的图片生成器，为用户提供更加便捷、高效的图片生成解决方案。  
+**AI图片生成器** 是一款易于操作的图片生成器，为用户提供更加便捷、高效的AI图片生成解决方案。  
 
 * 它是基于 **Dall·E** 和 **Stable Diffusion** API;
 * 它支持多种语言;

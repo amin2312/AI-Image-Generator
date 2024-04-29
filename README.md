@@ -3,7 +3,7 @@ AI Image Generator
 
 **[English](./README.md)** | **[中文](./README_zh.md)**
 
-**AI Image Generator** is a easy-to-operate image generator that provides users with a more convenient and efficient image generation solution.  
+**AI Image Generator** is a easy-to-operate image generator that provides users with a more convenient and efficient AI image generation solution.  
 
 * It is based on **Dall·E** and **Stable Diffusion** API;
 * It supports multi languages;
