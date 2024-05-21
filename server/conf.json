@@ -4,7 +4,7 @@
 	"port": 3001,
 	"errLog": "stderr.log",
 	"outLog": "stdout.log",
-	"api_proxy": "",
+	"api_proxy": "", // Use it to solve API calling restrictions in some regions
 	"maxRequestSeconds": 120,
 	"jobs": {
 		"maxItems": 100,

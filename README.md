@@ -15,21 +15,22 @@ Screenshots & Demo
 ![AI Image Generator Screenshot 1](./intro/screenshot-1.png "Screenshot 1")
 ![AI Image Generator Screenshot 2](./intro/screenshot-2.png "Screenshot 2")
 
-DEMO: [www.ai-img-gen.com/gen-basic/](https://www.ai-img-gen.com/gen-basic/)
+DEMO: [www.ai-img-gen.com/gen-basic/](https://www.ai-img-gen.com/gen-basic/) (only show)  
+Commercial: [www.ai-img-gen.com/gen-pro/](https://www.ai-img-gen.com/gen-pro/) (provide free trial)
 
 How to run it
 ----------------
 
-Step 1. Install python >= 3.10  
+**Step 1**. Install python >= 3.10  
   
-Step 2. Install the project's python dependencies
+**Step 2**. Install the project's python dependencies
 
 ```sh
 cd <project_path>
 pip install -r server/requirements.txt
 ```
 
-Step 3. Configure **Dall·E** or **Stable Diffusion** API key
+**Step 3**. Configure **Dall·E** or **Stable Diffusion** API key
 
 ```text
 Use text editor to open <project_path>/server/conf.json,
@@ -37,14 +38,14 @@ and fill in the "api_key" field by your needs,
 remember to save it.
 ```
 
-Step 4. Start the python server
+**Step 4**. Start the python server
 
 ```sh
 cd <project_path>
 python server/app.py
 ```
 
-Step 5. Open browser, visit **<http://127.0.0.1:3001>**
+**Step 5**. Open browser, visit **<http://127.0.0.1:3001>**
 
 Official site
 ----------------
@@ -63,7 +64,7 @@ root
          ├─ language_support.csv  // Add new language using the CSV editor
 ├─ intro    // Related files introduced
 ├─ server   // Python server project
-└─ wwwroot  // Server web root directory / Vue build output directory
+└─ wwwroot  // Server web root directory | Vue build output directory
 ```
 
 Others
