@@ -15,36 +15,37 @@ AI图片生成器(AI Image Generator)
 ![AI Image Generator Screenshot 1](./intro/screenshot-1.png "Screenshot 1")
 ![AI Image Generator Screenshot 2](./intro/screenshot-2.png "Screenshot 2")
 
-演示：[www.ai-img-gen.com/gen-basic/](https://www.ai-img-gen.com/gen-basic/)
+演示：[www.ai-img-gen.com/gen-basic/](https://www.ai-img-gen.com/gen-basic/) (仅展示)  
+商业版：[www.ai-img-gen.com/gen-pro/](https://www.ai-img-gen.com/gen-pro/) (提供免费试用)  
 
 如何运行它
 ----------------
 
-步骤1. 安装 python >= 3.10  
+**步骤1**. 安装 python >= 3.10  
   
-步骤2. 安装项目的 python 依赖项  
+**步骤2**. 安装项目的 python 依赖项  
 
 ```sh
 cd <项目路径>
 pip install -r server/requirements.txt
 ```
 
-步骤3. 配置 **Dall·E** 或 **Stable Diffusion** 的API密钥
+**步骤3**. 配置 **Dall·E** 或 **Stable Diffusion** 的API密钥
 
 ```text
 使用文本编辑器打开 <项目路径>/server/conf.json，
-根据需要填写"api_key"字段，
+根据需要填写"api_key"字段(填写"api_proxy"字段可加入代理以解决部分地区的调用限制)，
 记得保存。
 ```
 
-步骤4. 启动python服务器  
+**步骤4**. 启动 python 服务器  
 
 ```sh
 cd <项目路径>
 python server/app.py
 ```
 
-步骤5. 打开浏览器, 访问 **<http://127.0.0.1:3001>**
+**步骤5**. 打开浏览器, 访问 **<http://127.0.0.1:3001>**
 
 官方网站
 ----------------
@@ -63,7 +64,7 @@ root
          ├─ language_support.csv  // 使用 CSV 编辑器添加新语言
 ├─ intro    // 与介绍相关的文件
 ├─ server   // Python 服务器项目
-└─ wwwroot  // 服务器 Web 根目录 / Vue 构建输出目录
+└─ wwwroot  // 服务器 Web 根目录 | Vue 构建输出目录
 ```
 
 其他
